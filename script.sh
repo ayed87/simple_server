@@ -15,7 +15,7 @@ git clone https://github.com/ayed87/simple_server.git /home/ec2-user/myapp
 # Navigate to the app directory
 cd /home/ec2-user/myapp
 
-# Install dependencies (if you have a package.json file)
+# Install dependencies
 npm install
 
 # Start the Node.js server
