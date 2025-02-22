@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     res.end('<h1>Hello, User!</h1>');
 });
 
-const port = 3000;
+const port = 80;
 server.listen(port, () => {
     console.log(`Server running at http://<public-ip>:${port}/`);
 });
